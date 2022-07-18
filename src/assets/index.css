@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(212, 246, 235);
+}
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    background-color: white;
+    justify-content: center;
+    width: 500px;
+    border: 1px solid red;
+}
+#wrap{
+    display: flex;
+    justify-content: center;
+}
+#time{
+    text-align: center;
+    width: 100%;
+    
+    border: 1px solid red;
+}
+#map{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    border: 1px solid red;
+    z-index: 0;
+}
+#distance{
+    text-align: center;
+    font-size: 30px;
+    width: 50%;
+    height: 100px;
+    border: 1px solid red;
+}
+#calories{
+    text-align: center;
+    font-size: 30px;
+    width: 49%;
+    height: 100px;
+    border: 1px solid red;
+}
+.font_size{
+    font-size: 20px;
+}
+#pace{
+    text-align: center;
+    width: 50%;
+    font-size: 30px;
+    height: 100px;
+    border: 1px solid red;
+}
+#avg_pace{
+    text-align: center;
+    font-size: 30px;
+    width: 49%;
+    height: 100px;
+    border: 1px solid red;
+}
+
+#start,
+#stop,
+#reset{
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: rgb(95, 188, 214);
+}
+
+#settings{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: start;
+    border: 1px solid red;
+}
+
+.fa-solid{
+    height: 50pxhj;
+    
+}
+#weight{
+    width: 200px;
+    background-color: white;
+    z-index: 2;
+}
+#input{
+    width: 50px;
+}

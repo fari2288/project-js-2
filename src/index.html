@@ -7,12 +7,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/src/assets/index.css">
-    <script src="/src/index.js"></script>
+    <script src="https://kit.fontawesome.com/c06e2e2284.js" crossorigin="anonymous"></script>
 </head>
-<body>
 
+<body>
+<div id="wrap"><div id="wrapper">
+    <div id="settings"><i class="fa-solid fa-gear"></i>
+        <div id="container"></div>
+    </div>
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d19054.77517317694!2d-6.274811510060806!3d53.34599681932364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sie!4v1658000484221!5m2!1sru!2sie" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div id="time">
+        <h1><time>00:00:00</time></h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+    <button id="reset">reset</button></div>
+    
+    <div id="distance"><div id="miles">00</div><span class="font_size">distance</span></div>
+    <div id="calories">00<br><span class="font_size">calories</span></div>
+    <div id="pace">00<br><span  class="font_size">pace</span></div>
+    <div id="avg_pace">00<br><span  class="font_size">average pace</span></div>
+
+</div>
+</div>
 
     
-    <h1>fariza</h1>
-</body>
-</html>
+    </div></div>
+    
+
+
+<script src="/src/index.js"></script>
+    </body>
+    </html>
